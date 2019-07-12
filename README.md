@@ -1,14 +1,16 @@
 # AngularLocalstorage
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve --port 8000 -o` para un servidor de desarrollo en el puerto 8000 y lo abre automaticamente por el -o. Se abre la ruta `http://localhost:8000/`.
 
-## Code scaffolding
+## Configurar Bootstrap
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Corremos el comando `npm i bootstrap` para instalar el framework bootstrap . Luego vamos al archivo angular.json y agregamos en styles
+`node_modules/bootstrap/dist/css/bootstrap.min.css`
+ `node_modules/bootstrap/dist/js/bootstrap.min.js` paramos el server con `ctrl+c` y ejecutamos nuevamente para que compile el cambio.
 
 ## Build
 
